@@ -1,0 +1,11 @@
+spring.application.name=USER-SERVICE
+eureka.client.serviceUrl.defaultZone=http://localhost:8080/eureka/
+
+#请求处理的超时时间
+ribbon.ReadTimeout=120000
+#请求连接的超时时间
+ribbon.ConnectTimeout=30000
+#允许熔断
+feign.hystrix.enabled=true
+
+server.port=8081
