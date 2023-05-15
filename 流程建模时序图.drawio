@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T07:13:24.333Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="wOt96C6asx-WQ7MDwlNG" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T07:52:27.823Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="IZxJng0fMN54w_aOIJ_D" version="21.3.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1964" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -254,7 +254,7 @@
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-307" value="FALSE" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="1350" y="1180" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cpj89J8UDJRiFhrv2RQw-319" value="处理下一步" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="Cpj89J8UDJRiFhrv2RQw-319" value="生成任务" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="240" y="1090" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-320" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cpj89J8UDJRiFhrv2RQw-321" target="Cpj89J8UDJRiFhrv2RQw-323">
@@ -307,7 +307,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cpj89J8UDJRiFhrv2RQw-329" value="事件处理" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="Cpj89J8UDJRiFhrv2RQw-329" value="任务办理" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#99FFCC;" vertex="1" parent="1">
           <mxGeometry x="240" y="2306" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-335" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cpj89J8UDJRiFhrv2RQw-336" target="Cpj89J8UDJRiFhrv2RQw-350">
@@ -436,7 +436,7 @@
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-382" value="更新任务状态为pass" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="1415" y="1668" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cpj89J8UDJRiFhrv2RQw-387" value="处理下一步" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="Cpj89J8UDJRiFhrv2RQw-387" value="生成任务" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="1655" y="1540" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-388" value="触发任务流/工作流退出，传递结果" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
@@ -464,7 +464,7 @@
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-394" value="更新任务状态为fail" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="1430" y="2008" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cpj89J8UDJRiFhrv2RQw-395" value="处理下一步" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="Cpj89J8UDJRiFhrv2RQw-395" value="生成任务" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="1670" y="1880" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-396" value="触发任务流/工作流退出" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
@@ -479,7 +479,7 @@
             <mxPoint x="1850" y="2495" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cpj89J8UDJRiFhrv2RQw-401" value="触发父级节点的并行任务退出" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="Cpj89J8UDJRiFhrv2RQw-401" value="触发主流程并行任务办理" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="2003" y="2464" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-425" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Cpj89J8UDJRiFhrv2RQw-423" target="Cpj89J8UDJRiFhrv2RQw-369">
