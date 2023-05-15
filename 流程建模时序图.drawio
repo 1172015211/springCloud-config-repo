@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T09:07:43.490Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="sbcDJJ3tA2dd0S0nw6Ov" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T09:27:34.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="5r3fmjZR3EOb2F6eo7oC" version="21.3.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="2694" dy="1344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mo1ELPvoSkXUBXak0MwU-215" target="Cpj89J8UDJRiFhrv2RQw-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mo1ELPvoSkXUBXak0MwU-215" value="生成流程、子流程维度历史" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
+        <mxCell id="Mo1ELPvoSkXUBXak0MwU-215" value="生成流程、子流程维度历史，设置InstID" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="1" vertex="1">
           <mxGeometry x="649" y="210" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-17" value="生成任务" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -169,17 +169,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Cpj89J8UDJRiFhrv2RQw-286" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cpj89J8UDJRiFhrv2RQw-287" target="Cpj89J8UDJRiFhrv2RQw-289">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Cpj89J8UDJRiFhrv2RQw-286" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cpj89J8UDJRiFhrv2RQw-287">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1519" y="1291" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-287" value="判断任务流绑定并行流程条件是否为TRUE" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="1349" y="1261" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cpj89J8UDJRiFhrv2RQw-288" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Cpj89J8UDJRiFhrv2RQw-289" target="Cpj89J8UDJRiFhrv2RQw-290">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Cpj89J8UDJRiFhrv2RQw-289" value="判断任务流条件是否为TRUE" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1519" y="1261" width="100" height="60" as="geometry" />
+        <mxCell id="Cpj89J8UDJRiFhrv2RQw-288" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="Cpj89J8UDJRiFhrv2RQw-290">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1619" y="1291" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-290" value="启动任务流" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1699" y="1261" width="100" height="60" as="geometry" />
@@ -235,6 +236,9 @@
         </mxCell>
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-329" value="工作流完成" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="200" y="4600" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cpj89J8UDJRiFhrv2RQw-779" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Cpj89J8UDJRiFhrv2RQw-369" target="Cpj89J8UDJRiFhrv2RQw-778">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-369" value="判断任务执行结果" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="1060" y="1762" width="100" height="60" as="geometry" />
@@ -609,7 +613,7 @@
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-629" value="成功" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="1120" y="2220" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Cpj89J8UDJRiFhrv2RQw-630" value="成功" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="Cpj89J8UDJRiFhrv2RQw-630" value="失败" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="1120" y="2310" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-631" value="成功" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
@@ -988,6 +992,9 @@
         </mxCell>
         <mxCell id="Cpj89J8UDJRiFhrv2RQw-773" value="查询任务流信息" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="479" y="320" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cpj89J8UDJRiFhrv2RQw-778" value="等待人员办理" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1308.5" y="2000" width="103" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
